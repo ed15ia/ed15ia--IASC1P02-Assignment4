@@ -1,0 +1,81 @@
+#wrapper{
+    width:1000px;
+    background-color: red;
+}
+
+#header{
+    width: 900px;
+    height: 100px;
+    background-color: White;
+    margin: 0 auto;
+font-size: 15px;
+}
+#Headertext{
+  position: relative;
+  top: 20px;
+  left: 275px;
+    color: black;
+}
+
+#rightdesc{
+        width: 800px;
+        height: 250px;
+        background-color:White;
+        color: Black;
+    margin: 0 auto;
+      }
+      #H2text{
+          position: relative;
+          top: 20px;
+          left: 275px;
+          color: black;
+      }
+      #box1{
+                margin: 0 auto;
+                width: 800px;
+                height: 500px;
+                background-color: white;
+                color: Black;
+              }
+
+      #Equiptment{
+          position: relative;
+          top: 20px;
+          left: 135px;
+          color: black;
+          font-size: 20px;
+      }
+
+      #box2{
+        margin: 0 auto;
+        width: 800px;
+        height: 500px;
+        background-color: white;
+        color: Black;
+            }
+
+      #Accessories{
+          position: relative;
+          top: 20px;
+          right: -160px;
+          color: black;
+          font-size: 20px;
+      }
+
+      #Contact{
+              width: 650px;
+              height: 250px;
+              background-color:white;
+              float: none;
+              color: black;
+              margin-left: 175px;
+              margin-right: 175px;
+              margin-top: 950px;
+              font-size: 25px;
+            }
+      #Cinfo{
+                position: relative;
+                top: 20px;
+                left: 250px;
+                color: Black;
+            }

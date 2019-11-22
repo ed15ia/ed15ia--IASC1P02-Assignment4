@@ -1,0 +1,161 @@
+#wrapper{
+    width:1000px;
+    background-color: red;
+}
+
+#header{
+    width: 900px;
+    height: 200px;
+    background-color: White;
+    margin: 0 auto;
+font-size: 15px;
+}
+#Headtext{
+    position: relative;
+    top: -100px;
+    left: 250px;
+}
+
+#Logo{
+    width: 150px;
+    height: 150px;
+    padding:25px;
+}
+
+#Search{
+  width: 1000px;
+  height: 25px;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+}
+
+#leftpic{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    float:left;
+}
+
+#bigBox img{
+  height:200px;
+  width:200px;
+}
+#bigBox{
+    width:200px;
+    height:200px;
+    margin:25px 25px 25px 25px;
+    background-color:white;
+    }
+
+#rightdesc{
+        width: 700px;
+        height: 250px;
+        background-color:white;
+        float:right;
+        color: black;
+      }
+      #H2text{
+          position: relative;
+          top: 20px;
+          left: 250px;
+          color: black;
+      }
+
+      #box1{
+              margin-top: 50px;
+              width: 400px;
+              height: 250px;
+              background-color:white;
+              float:left;
+              color: black;
+            }
+
+      #Webpage1{
+          position: relative;
+          top: 20px;
+          left: 135px;
+          color: black;
+          font-size: 20px;
+      }
+
+      #box2{
+              margin-top: 50px;
+              width: 400px;
+              height: 250px;
+              background-color:white;
+              float:right;
+              color: black;
+            }
+
+      #Webpage2{
+          position: relative;
+          top: 20px;
+          right: -160px;
+          color: black;
+          font-size: 20px;
+      }
+
+      #box3{
+              margin-top: 50px;
+              width: 400px;
+              height: 250px;
+              background-color:white;
+              float:left;
+              color: black;
+            }
+
+      #Webpage3{
+          position: relative;
+          top: 20px;
+          left: 135px;
+          color: black;
+          font-size: 20px;
+      }
+
+      #box4{
+              margin-top: 50px;
+              width: 400px;
+              height: 250px;
+              background-color:white;
+              float:right;
+              color: black;
+            }
+
+      #Webpage4{
+          position: relative;
+          top: 20px;
+          right: -160px;
+          color: black;
+          font-size: 20px;
+      }
+
+      #Menu1{
+        top: 1130px;
+        width: 1000px;
+        height: 50px;
+        background-color:white;
+        float: none;
+        position: absolute;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+      }
+
+      #Contact{
+              width: 650px;
+              height: 250px;
+              background-color:white;
+              float: none;
+              color: black;
+              margin-left: 175px;
+              margin-right: 175px;
+              margin-top: 950px;
+              font-size: 25px;
+            }
+      #Cinfo{
+                position: relative;
+                top: 20px;
+                left: 250px;
+                color: Black;
+            }
