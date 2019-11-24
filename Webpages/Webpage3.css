@@ -7,29 +7,42 @@
     height: 100px;
     background-color: White;
     margin: 0 auto;
-font-size: 15px;
+    font-size: 15px;
+    border-style: ridge;
+    margin-top: 20px;
 }
 #Headertext{
   position: relative;
   top: 20px;
-  left: 275px;
-    color: black;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+}
+#Headertext:hover{
+    color: red;
 }
 
 #rightdesc{
         width: 800px;
-        height: 250px;
+        height: 300px;
         background-color:White;
         color: Black;
     margin: 0 auto;
     font-family: cursive;
     font-size: 19px;
+    border-style: ridge;
+    margin-top: 20px;
       }
       #H2text{
           position: relative;
           text-align: center;
           color: black;
       }
+
+      #H2text:hover{
+          color: red;
+     }
+
       #box1{
                 margin: 0 auto;
                 width: 800px;
@@ -38,6 +51,8 @@ font-size: 15px;
                 color: Black;
                 font-size: 20px;
                 font-family: cursive;
+                border-style: ridge;
+                margin-top: 20px;
               }
 
       #Paragraph2{
@@ -46,15 +61,21 @@ font-size: 15px;
           font-size: 30px;
           text-align: center;
       }
+#Paragraph2:hover{
+    color: red;
+}
 
       #box2{
         margin: 0 auto;
         width: 800px;
-        height: 650px;
+        height: 700px;
         background-color: white;
         color: Black;
         font-size: 20px;
         font-family: cursive;
+        border-style: ridge;
+        margin-top: 20px;
+        text-align: center;
             }
 
       #Paragraph3{
@@ -62,6 +83,9 @@ font-size: 15px;
           color: black;
           font-size: 30px;
           text-align: center;
+      }
+      #Paragraph3:hover{
+        color: red;
       }
 
       #Contact{
@@ -71,11 +95,12 @@ font-size: 15px;
               float: none;
               color: black;
               margin: 0 auto;
-              margin-top: 100px;
+              margin-top: 10px;
               font-size: 25px;
               font-family: serif;
               font-weight: bold;
               text-align: center;
+              border-style: ridge;
             }
       #Cinfo{
                 margin: auto;
@@ -83,3 +108,82 @@ font-size: 15px;
                 left: 250px;
                 color: Black;
             }
+            #Cinfo:hover{
+                color: red;
+           }
+
+            #box3{
+              margin: 0 auto;
+              width: 437px;
+              height: 100px;
+              background-color: white;
+              color: Black;
+              font-size: 20px;
+              font-family: cursive;
+              border-style: ridge;
+              border-color: black;
+              margin-top: 40px;
+              border-width: thick;
+                  }
+
+#finalOutput{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+/* Popup container */
+.popup {
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #white;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+#clock{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  color: black;
+}

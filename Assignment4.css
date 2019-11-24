@@ -16,6 +16,9 @@ border-style: double;
     top: -100px;
     left: 250px;
 }
+#Headtext:hover{
+    color: red;
+}
 
 #Logo{
     width: 150px;
@@ -52,95 +55,117 @@ border-style: double;
 
 #rightdesc{
   width: 800px;
-  height: 200px;
+  height: 220px;
   background-color:White;
   color: Black;
 margin: 0 auto;
 font-family: cursive;
 font-size: 19px;
+border-style: ridge;
+margin-top: 20px;
       }
       #H2text{
           position: relative;
-          top: 20px;
           left: 250px;
           color: black;
       }
 
+      #H2text:hover{
+          color: red;
+    }
+
       #box1{
         margin: 0 auto;
         width: 800px;
-        height: 150px;
+        height: 100px;
         background-color: white;
         color: Black;
         font-size: 20px;
         font-family: cursive;
         text-align: center;
+        border-style: ridge;
+        margin-top: 20px;
 
             }
 
       #Webpage1{
-        position: relative;
+        margin: 0 auto;
         color: black;
         font-size: 20px;
         text-align: center;
       }
-
+ #Webpage1:hover{
+     color: red;
+}
       #box2{
         margin: 0 auto;
         width: 800px;
-        height: 150px;
+        height: 100px;
         background-color: white;
         color: Black;
         font-size: 20px;
         font-family: cursive;
         text-align: center;
+        border-style: ridge;
+        margin-top: 20px;
 
             }
 
       #Webpage2{
-        position: relative;
+        margin: 0 auto;
         color: black;
         font-size: 20px;
         text-align: center;
       }
-
+      #Webpage2:hover{
+          color: red;
+     }
       #box3{
         margin: 0 auto;
         width: 800px;
-        height: 150px;
+        height: 100px;
         background-color: white;
         color: Black;
         font-size: 20px;
         font-family: cursive;
         text-align: center;
+        border-style: ridge;
+        margin-top: 20px;
 
             }
 
       #Webpage3{
-        position: relative;
+        margin: 0 auto;
         color: black;
         font-size: 20px;
         text-align: center;
       }
-
+      #Webpage3:hover{
+          color: red;
+     }
       #box4{
         margin: 0 auto;
         width: 800px;
-        height: 150px;
+        height: 100px;
         background-color: white;
         color: Black;
         font-size: 20px;
         font-family: cursive;
         text-align: center;
-      
+        border-style: ridge;
+        margin-top: 20px;
+
             }
 
       #Webpage4{
-          position: relative;
+          margin: 0 auto;
           color: black;
           font-size: 20px;
           text-align: center;
       }
+      #Webpage4:hover{
+          color: red;
+     }
 
       #Menu1{
         height: 50px;
@@ -148,7 +173,7 @@ font-size: 19px;
         float: none;
         color: black;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 20px;
         font-size: 25px;
         font-family: serif;
         font-weight: bold;
@@ -175,6 +200,10 @@ font-size: 19px;
         left: 250px;
         color: Black;
             }
+
+            #Cinfo:hover{
+                color: red;
+           }
 #clock{
   width: 1000px;
   margin: 0 auto;

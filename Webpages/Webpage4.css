@@ -7,15 +7,20 @@
     height: 100px;
     background-color: White;
     margin: 0 auto;
-font-size: 15px;
+    font-size: 15px;
+    border-style: ridge;
+    margin-top: 20px;
 }
 #Headertext{
   position: relative;
   top: 20px;
-  left: 275px;
-    color: black;
+  color: black;
+  text-align: center;
+  font-size: 35px;
 }
-
+#Headertext:hover{
+    color: red;
+  }
 #rightdesc{
         width: 800px;
         height: 300px;
@@ -24,12 +29,18 @@ font-size: 15px;
     margin: 0 auto;
     font-family: cursive;
     font-size: 19px;
+    border-style: ridge;
+    margin-top: 20px;
       }
       #H2text{
           position: relative;
           text-align: center;
           color: black;
       }
+      #H2text:hover{
+          color: red;
+        }
+
       #box1{
                 margin: 0 auto;
                 width: 800px;
@@ -38,6 +49,8 @@ font-size: 15px;
                 color: Black;
                 font-size: 20px;
                 font-family: cursive;
+                border-style: ridge;
+                margin-top: 20px;
               }
 
       #Paragraph2{
@@ -46,15 +59,20 @@ font-size: 15px;
           font-size: 30px;
           text-align: center;
       }
+      #Paragraph2:hover{
+          color: red;
+        }
 
       #box2{
         margin: 0 auto;
         width: 800px;
-        height: 300px;
+        height: 350px;
         background-color: white;
         color: Black;
         font-size: 20px;
         font-family: cursive;
+        border-style: ridge;
+        margin-top: 20px;
             }
 
       #Paragraph3{
@@ -63,6 +81,10 @@ font-size: 15px;
           font-size: 30px;
           text-align: center;
       }
+      #Paragraph3:hover{
+          color: red;
+        }
+
  #Menu1{
    height: 100px;
    background-color:white;
@@ -88,6 +110,8 @@ font-size: 15px;
               font-family: serif;
               font-weight: bold;
               text-align: center;
+              border-style: ridge;
+              margin-top: 20px;
             }
       #Cinfo{
                 margin: auto;
@@ -95,3 +119,55 @@ font-size: 15px;
                 left: 250px;
                 color: Black;
             }
+#Cinfo:hover{
+    color: red;
+  }
+  #box3{
+    margin: 0 auto;
+    width: 650px;
+    height: 320px;
+    background-color: white;
+    color: Black;
+    font-size: 20px;
+    font-family: cursive;
+    border-style: ridge;
+    margin-top: 20px;
+        }
+        .animate.backwards:hover{
+            color: red;
+          }
+          .animate.mixed:hover{
+              color: red;
+            }
+            .animate.forwards:hover{
+                color: red;
+              }
+  .animate span{
+	display: block;
+	position: relative;
+	text-align: center;
+}
+.animate.backwards > span{
+	animation: animateBackwards 1s ease-in-out
+forwards;
+}
+.animate.forwards > span{
+	animation: animateForwards 1s ease-in-out
+forwards;
+}
+.animate.mixed > span:nth-child(even){
+	animation: animateBackwards 1s ease-in-out
+forwards;
+}
+.animate.mixed > span:nth-child(odd){
+	animation: animateForwards 1s ease-in-out
+forwards;
+}
+@keyframes animateForwards {
+	from { top: 0; transform: rotate(0deg); }
+	to { top: .9em; transform: rotate(-15deg); }
+}
+@keyframes animateBackwards {
+	from { top: 0; transform: rotate(0deg); }
+	to { top: 1em; transform: rotate(25deg); }
+}

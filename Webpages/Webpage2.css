@@ -8,22 +8,31 @@
     background-color: White;
     margin: 0 auto;
 font-size: 15px;
+border-style: ridge;
+margin-top: 20px;
 }
 #Headertext{
   position: relative;
   top: 20px;
-  left: 275px;
-    color: black;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+}
+
+#Headertext:hover{
+    color: red;
 }
 
 #rightdesc{
         width: 800px;
-        height: 250px;
+        height: 300px;
         background-color:White;
         color: Black;
     margin: 0 auto;
     font-family: cursive;
     font-size: 25px;
+    border-style: ridge;
+    margin-top: 20px;
       }
       #H2text{
           position: relative;
@@ -31,6 +40,10 @@ font-size: 15px;
           left: 200px;
           color: black;
       }
+
+      #H2text:hover{
+          color: red;
+     }
       #box1{
                 margin: 0 auto;
                 width: 800px;
@@ -39,6 +52,8 @@ font-size: 15px;
                 color: Black;
                 font-size: 20px;
                 font-family: cursive;
+                border-style: ridge;
+                margin-top: 20px;
               }
       #Logo{
                   width: 350px;
@@ -53,15 +68,20 @@ font-size: 15px;
           color: black;
           font-size: 30px;
       }
+#Paragraph2:hover{
+    color: red;
+}
 
       #box2{
         margin: 0 auto;
         width: 800px;
-        height: 500px;
+        height: 550px;
         background-color: white;
         color: Black;
         font-size: 20px;
         font-family: cursive;
+        border-style: ridge;
+        margin-top: 20px;
             }
 
       #Paragraph3{
@@ -71,6 +91,10 @@ font-size: 15px;
           color: black;
           font-size: 30px;
       }
+      #Paragraph3:hover{
+          color: red;
+     }
+
       #Logo1{
                   width: 400px;
                   height: 250px;
@@ -88,6 +112,8 @@ font-size: 15px;
               font-family: serif;
               font-weight: bold;
               text-align: center;
+              border-style: ridge;
+              margin-top: 20px;
             }
       #Cinfo{
                 margin: auto;
@@ -95,3 +121,6 @@ font-size: 15px;
                 left: 250px;
                 color: Black;
             }
+#Cinfo:hover{
+    color: red;
+}
