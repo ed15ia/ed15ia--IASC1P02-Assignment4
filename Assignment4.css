@@ -51,7 +51,17 @@ border-style: double;
     background-color:black;
     border-style: double;
     }
-
+    #bigBox1{
+        width:200px;
+        height:200px;
+        margin:25px 25px 25px 25px;
+        background-color:black;
+        border-style: double;
+        }
+        #bigBox1 img{
+          height:200px;
+          width:200px;
+        }
 #rightdesc{
   width: 800px;
   height: 220px;
